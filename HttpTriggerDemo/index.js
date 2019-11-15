@@ -1,5 +1,5 @@
 module.exports = async function (context, req) {
-    context.log('JavaScript HTTP trigger function processed a request. newest');
+    context.log('JavaScript HTTP trigger function processed a request. newest and newest');
 
     if (req.query.name || (req.body && req.body.name)) {
         context.res = {
